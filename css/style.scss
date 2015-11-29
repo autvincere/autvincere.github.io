@@ -3,68 +3,107 @@
 	margin: 0 auto;
 	padding: 0;
 }
-//VARIABLES
-$fuente-primaria-sitio : 'Roboto', sans-serif;
-$fuente-primaria-sitio-color: gray;
-$centrar : 0;    
+// GOOGLE FONT
 @import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic,700,400italic);
+//VARIABLES
+// Font Variables
+$Roboto: 'Roboto', sans-serif; 
+$fuente-primaria-sitio: 'Roboto', sans-serif;  $color-fuente-primaria: #454545;
+$color-fondo-primario: #F7F7F2;
+$centrar : 0;    
+
 *{
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
     -moz-box-sizing: border-box;
     -o-box-sizing: border-box;
     -ms-box-sizing: border-box;
     -webkit-box-sizing: border-box;
 }
 body{
-    font-family: $fuente-primaria-sitio;
-    color: $fuente-primaria-sitio-color;
-    background-color: aqua;   
+    font-family: $Roboto;
+    color: $color-fuente-primaria;
+    background-color: $color-fondo-primario;   
 }
 //.container{
 //   margin: 0 auto;
 //	 padding: 0;   
 //}
+.azul{
+ height: 50px;
+ background-color: green;
+ }
 header{
-    background-color: #001e80;
+    color: $color-fuente-primaria;
     width: 100%;
+    position: fixed;
+    z-index: 10;
+
         div.container{
-            margin: 0 auto;
-	        padding: 0;
-            width: 90%;
-            background-color: green;
+               margin: 0 auto;
+               padding: 5px 0px 2px 0px;
+               width: 80%;
+//            background-color: green;
+               color: $color-fuente-primaria;
                a{
-                display: inline-block;
-                vertical-align: top;
+                    display: inline-block;
+                    vertical-align: middle;
                 }
                 nav{
-                        width: 32%;
-                        text-align: right;
-                        float: right;
-//                        padding: 0px 20px;
-                        display: inline-block;
+                    width: 82%;
+                    display: inline-block;
+                    vertical-align: middle;
+                    text-align: right;
                     ul{
         //              display: inline-block;
         //              vertical-align: text-top;
                         li{
                             display: inline-block;
                             vertical-align: text-top;
+                            margin-right: 25px;
                                 a{
+                                    color: $color-fuente-primaria;
+                                    text-transform: uppercase;
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    /*-webkit-transition: all 0.20s linear;
+                                    -moz-transition: all 0.20s linear;
+                                    -o-transition: all 0.20s linear;
+                                    -ms-transition: all 0.20s linear;*/
+                                        &:hover{
+//                                            color:yellow;
+                                            display: inline-block;
+        
+                                         }
+                                       &:hover:after{
+                                           width: 100%;
+                                            background: #171717;
+                                            }
+                                        &:after{
+                                            content: '';
+                                            display: block;
+                                            height: 3px;
+                                            width: 0;
+                                            background: transparent;
+                                            transition: width .3s ease, background-color .3s ease;
+                                        }
 
                                   }
+  
                           }
                        }
                    }
                 }
        }
+
     
 section{
     &.intro{
          width: 100%;
-         background-color: gray;
+//         background-color: gray;
         article{
             width: 70%;
-            background-color: blueviolet;
+//            background-color: blueviolet;
             margin: 0 auto;
             #guy{
                 position: relative;
@@ -78,7 +117,9 @@ section{
                     position: absolute;
                     vertical-align: top;
                     display: inline-block;
-                    text-align: left;    
+                    text-align: left;
+                    margin-left: -40px;
+                   
                 }
                 #hello{
                     width: 54%;
@@ -87,6 +128,10 @@ section{
                     margin-left: 3%;
                     vertical-align: top;
                     margin-top: 140px;
+                     h2{
+                        font-size: 2em;
+                        font-family: $Roboto;
+                    }
                 }
             
             }    
