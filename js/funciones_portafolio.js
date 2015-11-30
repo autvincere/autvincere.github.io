@@ -7,9 +7,9 @@ $(document).ready(function(){
 	//427
 		if(desdeTop >42){
 			console.log('es mayor :)')
-			$('div.container').addClass('azul');
+			$('div.container').addClass('down_nav');
 		}else{
-			$('div.container').removeClass('azul');
+			$('div.container').removeClass('down_nav');
 
 		}
 		});
