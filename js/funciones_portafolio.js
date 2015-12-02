@@ -7,9 +7,13 @@ $(document).ready(function(){
 	//427
 		if(desdeTop >42){
 			console.log('es mayor :)')
-			$('div.container').addClass('down_nav');
+			$('div.container').addClass('down_container');
+            $('div.container nav').addClass('down_nav');
+            $('div.container a figure img').addClass('down_logo');
 		}else{
-			$('div.container').removeClass('down_nav');
+			$('div.container').removeClass('down_container');
+            $('div.container nav').removeClass('down_nav');
+            $('div.container a figure img').removeClass('down_logo');                               
 
 		}
 		});
