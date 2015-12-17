@@ -4,21 +4,22 @@
 	padding: 0;
 }
 @mixin transition($tiempo) {
--webkit-transition: $tiempo;
--moz-transition: $tiempo;
--o-transition: $tiempo;
--ms-transition: $tiempo;
-transition: $tiempo;
+    -webkit-transition: $tiempo;
+    -moz-transition: $tiempo;
+    -o-transition: $tiempo;
+    -ms-transition: $tiempo;
+    transition: $tiempo;
 }
 
 // GOOGLE FONT
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic,700,400italic);
+//@import url(https://fonts.googleapis.com/css?family=Roboto:300,250,500,300italic,700,250italic);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
 //VARIABLES
 // Font Variables
-$Roboto: 'Roboto', sans-serif; 
-$fuente-primaria-sitio: 'Roboto', sans-serif;  
-$color-fuente-primaria: #454545;
-$color-fondo-primario: #F7F7F2;
+$Roboto: 'Open Sans', sans-serif; 
+$fuente-primaria-sitio: 'Open Sans', sans-serif;
+$color-fuente-primaria: #969696;
+$color-fondo-primario: #FFFFFF;
 $centrar : 0;    
 
 *{
@@ -39,14 +40,14 @@ body{
 //	 padding: 0;   
 //}
 .down_container{
-     height: 59px;
-     background-color: rgba(247, 247, 242, 0.9);
+     height: 70px;
+     background-color: rgba(249, 249, 249, 0.85);
  }
 .down_nav{
     margin-bottom: 12px;
 }
 .down_logo{
-    width: 75%!important;
+    width: 65%!important;
 }
 header{
     color: $color-fuente-primaria;
@@ -56,7 +57,7 @@ header{
 
         div.container{
                margin: 0 auto;
-               padding: 5px 10% 2px 10%;
+               padding: 15px 1% 2px 5%;
                width: 100%;
 //            background-color: green;
                color: $color-fuente-primaria;
@@ -66,7 +67,7 @@ header{
                     vertical-align: middle;
                                 figure{
                                         img{
-                                            width: 100%;
+                                            width: 94%;
                                             @include transition(all 0.35s linear);
                                         }
                                     } 
@@ -85,10 +86,12 @@ header{
                             vertical-align: text-top;
                             margin-right: 25px;
                                 a{
-                                    color: $color-fuente-primaria;
-                                    text-transform: uppercase;
-                                    text-decoration: none;
-                                    display: inline-block;
+                                        color: #696969;
+                                        text-transform: uppercase;
+                                        text-decoration: none;
+                                        display: inline-block;
+                                        font-weight: 500;
+                                        font-size: 0.95em;
                                         &:hover{
 //                                            color:yellow;
                                             display: inline-block;
@@ -101,7 +104,8 @@ header{
                                         &:after{
                                             content: ' ';
                                             display: block;
-                                            height: 2px;
+                                            bottom: 5px;
+                                            height: 1.5px;
                                             width: 0;
                                             background: transparent;
                                             transition: width .3s ease, background-color .3s ease;
@@ -126,6 +130,24 @@ section{
 //            background-color: blueviolet;
             margin: 0 auto;
             padding-top: 75px;
+            div#hello{
+                height: 287px;
+                padding: 68px 10%;
+                margin-left: 45px;
+                h2{
+                        font-size: 3.5rem;
+                        color: #2D2D2D;
+                        text-transform: capitalize;
+                        font-weight: 600;
+                        padding-bottom: 5px;
+                        letter-spacing: -1px;
+                        line-height: 61px;
+                  }
+                p{
+                        color: #2B2B2B;
+                        padding: 10px 0%;
+                }
+                 }
             #guy{
                 position: relative;
                 display: inline-block;
@@ -142,7 +164,7 @@ section{
                     margin-left: -40px;
                    
                 }
-                #hello{
+                div#hello{
                     width: 54%;
                     display: inline-block;
                     text-align: left;

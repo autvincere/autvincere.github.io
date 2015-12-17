@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:300,400,500,300italic,700,400italic);
-/* line 24, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
+/* line 25, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 * {
   padding: 0px;
   margin: 0px;
@@ -8,55 +8,55 @@
   -ms-box-sizing: border-box;
   -webkit-box-sizing: border-box; }
 
-/* line 32, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 33, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 body {
-  font-family: "Roboto", sans-serif;
-  color: #454545;
-  background-color: #F7F7F2; }
+  font-family: "Open Sans", sans-serif;
+  color: #969696;
+  background-color: #FFFFFF; }
 
-/* line 41, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 42, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 .down_container {
-  height: 59px;
-  background-color: rgba(247, 247, 242, 0.9); }
+  height: 70px;
+  background-color: rgba(249, 249, 249, 0.85); }
 
-/* line 45, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 46, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 .down_nav {
   margin-bottom: 12px; }
 
-/* line 48, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 49, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 .down_logo {
-  width: 75% !important; }
+  width: 65% !important; }
 
-/* line 51, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 52, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 header {
-  color: #454545;
+  color: #969696;
   width: 100%;
   position: fixed;
   z-index: 10; }
-  /* line 57, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+  /* line 58, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
   header div.container {
     margin: 0 auto;
-    padding: 5px 10% 2px 10%;
+    padding: 15px 1% 2px 5%;
     width: 100%;
-    color: #454545;
+    color: #969696;
     -webkit-transition: all 0.35s linear;
     -moz-transition: all 0.35s linear;
     -o-transition: all 0.35s linear;
     -ms-transition: all 0.35s linear;
     transition: all 0.35s linear; }
-    /* line 64, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+    /* line 65, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
     header div.container a {
       display: inline-block;
       vertical-align: middle; }
-      /* line 68, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      /* line 69, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
       header div.container a figure img {
-        width: 100%;
+        width: 94%;
         -webkit-transition: all 0.35s linear;
         -moz-transition: all 0.35s linear;
         -o-transition: all 0.35s linear;
         -ms-transition: all 0.35s linear;
         transition: all 0.35s linear; }
-    /* line 74, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+    /* line 75, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
     header div.container nav {
       width: 82%;
       display: inline-block;
@@ -67,67 +67,88 @@ header {
       -o-transition: all 0.35s linear;
       -ms-transition: all 0.35s linear;
       transition: all 0.35s linear; }
-      /* line 83, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      /* line 84, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
       header div.container nav ul li {
         display: inline-block;
         vertical-align: text-top;
         margin-right: 25px; }
-        /* line 87, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+        /* line 88, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
         header div.container nav ul li a {
-          color: #454545;
+          color: #696969;
           text-transform: uppercase;
           text-decoration: none;
-          display: inline-block; }
-          /* line 92, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+          display: inline-block;
+          font-weight: 500;
+          font-size: 0.95em; }
+          /* line 95, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
           header div.container nav ul li a:hover {
             display: inline-block; }
-          /* line 97, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+          /* line 100, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
           header div.container nav ul li a:hover:after {
             width: 100%;
             background: #868686; }
-          /* line 101, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+          /* line 104, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
           header div.container nav ul li a:after {
             content: ' ';
             display: block;
-            height: 2px;
+            bottom: 5px;
+            height: 1.5px;
             width: 0;
             background: transparent;
             transition: width 0.3s ease, background-color 0.3s ease; }
 
-/* line 121, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 125, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 section.intro {
   width: 100%; }
-  /* line 124, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+  /* line 128, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
   section.intro article {
     width: 70%;
     margin: 0 auto;
     padding-top: 75px; }
-    /* line 129, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+    /* line 133, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+    section.intro article div#hello {
+      height: 287px;
+      padding: 68px 10%;
+      margin-left: 45px; }
+      /* line 137, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      section.intro article div#hello h2 {
+        font-size: 3.5rem;
+        color: #2D2D2D;
+        text-transform: capitalize;
+        font-weight: 600;
+        padding-bottom: 5px;
+        letter-spacing: -1px;
+        line-height: 61px; }
+      /* line 146, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      section.intro article div#hello p {
+        color: #2B2B2B;
+        padding: 10px 0%; }
+    /* line 151, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
     section.intro article #guy {
       position: relative;
       display: inline-block;
       text-align: left; }
-      /* line 137, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      /* line 159, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
       section.intro article #guy #saludo {
         position: absolute;
         vertical-align: top;
         display: inline-block;
         text-align: left;
         margin-left: -40px; }
-      /* line 145, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
-      section.intro article #guy #hello {
+      /* line 167, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      section.intro article #guy div#hello {
         width: 54%;
         display: inline-block;
         text-align: left;
         margin-left: 3%;
         vertical-align: top;
         margin-top: 140px; }
-        /* line 152, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
-        section.intro article #guy #hello h2 {
+        /* line 174, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+        section.intro article #guy div#hello h2 {
           font-size: 2em;
-          font-family: "Roboto", sans-serif; }
+          font-family: "Open Sans", sans-serif; }
 
-/* line 162, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 184, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 main.container {
   margin: 0 auto;
   padding: 0;
@@ -135,21 +156,21 @@ main.container {
   height: auto;
   width: 100%;
   text-align: center; }
-  /* line 170, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+  /* line 192, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
   main.container ul {
     /* display: inline-block; */
     padding: 18px; }
-    /* line 173, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+    /* line 195, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
     main.container ul li {
       display: inline-block;
       width: 20%;
       background-color: brown;
       margin-right: 1.5%;
       /* position: relative; */ }
-      /* line 180, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+      /* line 202, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
       main.container ul li a figure {
         position: relative; }
-        /* line 183, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+        /* line 205, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
         main.container ul li a figure img {
           width: 100%;
           -webkit-transition: all 0.35s linear;
@@ -157,10 +178,10 @@ main.container {
           -o-transition: all 0.35s linear;
           -ms-transition: all 0.35s linear;
           transition: all 0.35s linear; }
-        /* line 187, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+        /* line 209, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
         main.container ul li a figure:hover figcaption {
           display: block; }
-        /* line 191, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+        /* line 213, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
         main.container ul li a figure figcaption {
           background-color: deepskyblue;
           width: 100%;
@@ -171,7 +192,7 @@ main.container {
           z-index: 10;
           display: none; }
 
-/* line 209, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+/* line 231, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
 section.container {
   margin: 0 auto;
   padding: 11px 4%;
@@ -182,11 +203,11 @@ section.container {
   text-align: center;
   vertical-align: middle;
   text-transform: capitalize; }
-  /* line 219, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+  /* line 241, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
   section.container p {
     display: inline-block;
     vertical-align: middle; }
-  /* line 223, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
+  /* line 245, /Users/eduardopalmalopez/Desktop/coderhouse-04/clase_15/autvincere_sitio_github/autvincere.github.io/css/style.scss */
   section.container div#button_contact {
     display: inline-block;
     vertical-align: middle; }
