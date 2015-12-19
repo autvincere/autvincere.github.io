@@ -41,10 +41,11 @@ body{
 //}
 .down_container{
      height: 70px;
+     padding-top: 5px!important;
      background-color: rgba(249, 249, 249, 0.85);
  }
 .down_nav{
-    margin-bottom: 12px;
+     margin-top: 18px!important;
 }
 .down_logo{
     width: 65%!important;
@@ -73,10 +74,13 @@ header{
                                     } 
                 }
                 nav{
-                    width: 82%;
+//                    width: 82%;
+                    float: right;
                     display: inline-block;
                     vertical-align: middle;
                     text-align: right;
+//                    margin-bottom: 5px;
+                    margin-top: 31px;
                     @include transition(all 0.35s linear);
                     ul{
         //              display: inline-block;
@@ -132,8 +136,7 @@ section{
             padding-top: 75px;
             div#hello{
                 height: 287px;
-                padding: 68px 10%;
-                margin-left: 45px;
+                padding: 114px 0%;
                 h2{
                         font-size: 3.5rem;
                         color: #2D2D2D;
@@ -142,6 +145,11 @@ section{
                         padding-bottom: 5px;
                         letter-spacing: -1px;
                         line-height: 61px;
+                        display: inline-block;
+                        text-align: center;
+                        figure{
+                            display: inline-block;
+                    }
                   }
                 p{
                         color: #2B2B2B;
