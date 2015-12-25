@@ -4,12 +4,19 @@
     <title>Portafolio</title>
     <meta charset="UTF-8">
     <meta name="description" content="Diseño e ilustración"/>
+    <meta name="author" content="Eduardo palma lopez">
+    <meta name="viewport" content="width=device-width">
+     <!-- CSS for slidesjs.com example -->
+<!--  <link rel="stylesheet" href="css/example.css">-->
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <!-- End CSS for slidesjs.com example -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/style_slider.css">
 </head>
 <body>
 <!--   header>figure>img^+nav>ul>li*3>a{#}-->
     <header>
-       <div class="container">
+       <div class="content">
             <a class="logo" href="#">
                 <figure>
                     <img src="img/logo_header.svg"/>
@@ -27,25 +34,40 @@
     </header>
     <section class="intro">
         <article>
-<!--
-            <div id="guy">
-            <img id="yo" src="img/guy.png" width="200" height="400"/>
-            <img id="saludo" src="img/globo.png"/>
--->
             <div id="hello">
-               
                 <h2>
-                    <!--realizamos <span>Diseño</span> 
-                    <br>-->
-                    <figure><img src="http://lorempixel.com/image_output/cats-q-c-200-55-5.jpg" alt=""></figure> creativo y funcional.
+                    <figure>
+                        <img src="http://lorempixel.com/image_output/cats-q-c-200-55-5.jpg" alt=""></figure> creativo y funcional.
                 </h2>
                 <p>Motiondesign es el estudio de diseño de eduardo palma, 
                 desarrollamos sitios web, creamos imagen de marca
                 ubicado en santiago de chile.</p>
             </div>
-              
-            </div>
-            
+<!--Inicio slider-->
+             <div class="container">
+    <div id="slides">
+      <div class="sliderstuff">
+        <img src="img/slider/example-slide-1.jpg" alt="Photo by: Missy S Link: http://www.flickr.com/photos/listenmissy/5087404401/">
+        <span><p>Some text for the first image.</p></span>
+      </div>
+      
+      <div class="sliderstuff">
+        <img src="img/slider/example-slide-2.jpg" alt="Photo by: Daniel Parks Link: http://www.flickr.com/photos/parksdh/5227623068/">
+        <span>Some text for the second image.</span>
+      </div>
+      
+      <div class="sliderstuff">
+        <img src="img/slider/example-slide-3.jpg" alt="Photo by: Mike Ranweiler Link: http://www.flickr.com/photos/27874907@N04/4833059991/">
+        <span>Some text for the third image.</span>
+      </div>
+
+      <div class="sliderstuff">
+        <img src="img/slider/example-slide-4.jpg" alt="Photo by: Stuart SeegerLink: http://www.flickr.com/photos/stuseeger/97577796/">
+        <span>Some text for the four image.</span>
+      </div>
+    </div>
+  </div>
+<!--Cierre slider-->       
         </article>
     
     </section>
@@ -197,6 +219,7 @@
    </footer>
    
    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+   <script src="js/jquery.slides.js"></script>
    <script type="text/javascript" src="js/funciones_portafolio.js"></script>
 </body>
 </html>

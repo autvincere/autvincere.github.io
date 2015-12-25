@@ -10,7 +10,6 @@
     -ms-transition: $tiempo;
     transition: $tiempo;
 }
-
 // GOOGLE FONT
 //@import url(https://fonts.googleapis.com/css?family=Roboto:300,250,500,300italic,700,250italic);
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
@@ -21,7 +20,6 @@ $fuente-primaria-sitio: 'Open Sans', sans-serif;
 $color-fuente-primaria: #969696;
 $color-fondo-primario: #FFFFFF;
 $centrar : 0;    
-
 *{
     padding: 0px;
     margin: 0px;
@@ -39,7 +37,7 @@ body{
 //   margin: 0 auto;
 //	 padding: 0;   
 //}
-.down_container{
+.down_content{
      height: 70px;
      padding-top: 5px!important;
      background-color: rgba(249, 249, 249, 0.85);
@@ -56,7 +54,7 @@ header{
     position: fixed;
     z-index: 10;
 
-        div.container{
+        div.content{
                margin: 0 auto;
                padding: 15px 1% 2px 5%;
                width: 100%;
@@ -130,13 +128,13 @@ section{
          width: 100%;
 //         background-color: gray;
         article{
-            width: 70%;
-//            background-color: blueviolet;
+            width: 80%;
             margin: 0 auto;
-            padding-top: 75px;
+            padding-top: 145px;
+            text-align: center;
             div#hello{
-                height: 287px;
-                padding: 114px 0%;
+                    /* height: 287px; */
+                    padding: 12px 0%;
                 h2{
                         font-size: 3.5rem;
                         color: #2D2D2D;
@@ -185,10 +183,15 @@ section{
                     }
                 }
             
-            }    
+            }
+            div.container{
+                  
+                    }
+                    
+                }
+                
+            }
         }
-    }
-}
 main.container{
     margin: 0 auto;
     padding: 0;
