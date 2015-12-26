@@ -20,8 +20,8 @@ $(document).ready(function(){
     //SLIDER JS
     $(function() {
       $('#slides').slidesjs({
-        width: 940,
-        height: 528,
+        width: 1010,
+        height: 350,
         play: {
           active: true,
           auto: true,
