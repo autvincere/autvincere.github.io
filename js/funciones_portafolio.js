@@ -13,11 +13,10 @@ $(document).ready(function(){
 		}else{
 			$('div.content').removeClass('down_content');
             $('div.content nav').removeClass('down_nav');
-            $('div.content a figure img').removeClass('down_logo');                               
-
+            $('div.content a figure img').removeClass('down_logo');                      
 		}
 		});
-    //SLIDER JS
+    //INICIO SLIDER JS
     $(function() {
       $('#slides').slidesjs({
         width: 1010,
@@ -31,6 +30,11 @@ $(document).ready(function(){
       });
     });
     //FIN SLIDER JS
-    
-
+    //INICIO MASONERY JS
+      $('.grid').masonry({
+    itemSelector: '.grid-item',
+    columnWidth: 350,
+    gutter: 10
+  });
+    //FIN MASONERY JS
 });

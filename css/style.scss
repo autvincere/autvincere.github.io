@@ -37,6 +37,7 @@ body{
 //   margin: 0 auto;
 //	 padding: 0;   
 //}
+//INICIO ESTILOS BOTONERA JQUERY
 .down_content{
      height: 70px;
      padding-top: 5px!important;
@@ -49,12 +50,13 @@ body{
 .down_logo{
     width: 65%!important;
 }
+//FIN ESTILOS BOTONERA JQUERY
+
 header{
     color: $color-fuente-primaria;
     width: 100%;
     position: fixed;
     z-index: 10;
-
         div.content{
                margin: 0 auto;
                padding: 15px 1% 2px 5%;
@@ -121,9 +123,7 @@ header{
                        }
                    }
                 }
-       }
-
-    
+       }  
 section{
     &.intro{
          width: 100%;
@@ -131,21 +131,22 @@ section{
         article{
             width: 80%;
             margin: 0 auto;
-            padding-top: 125px;
+            padding-top: 115px;
             text-align: center;
             div#hello{
                     /* height: 287px; */
                     padding: 12px 0%;
                 h2{
-                        font-size: 2.8rem;
-                        color: #424242;
-                        text-transform: capitalize;
-                        font-weight: 600;
-                        padding-bottom: 5px;
-                        letter-spacing: -1px;
-                        line-height: 61px;
-                        display: inline-block;
-                        text-align: center;
+                    font-size: 2.8rem;
+                    color: #424242;
+                    text-transform: capitalize;
+                    font-weight: 600;
+                    padding-bottom: 0px;
+                    letter-spacing: -1px;
+                    line-height: 61px;
+                    display: inline-block;
+                    text-align: center;
+                    margin-bottom: -9px;
                         figure{
                             display: inline-block;
                             vertical-align: middle;
@@ -160,6 +161,7 @@ section{
                 p{
                         color: #2B2B2B;
                         padding: 10px 0%;
+                        font-size: 0.9rem;
                 }
                  }
             #guy{
@@ -203,20 +205,47 @@ section{
 main.container{
     margin: 0 auto;
     padding: 0;
-    background-color: burlywood;
+//  background-color: burlywood;
     height: auto;
     //display: inline-block;
     width: 100%;
     text-align: center;
     ul{
-        /* display: inline-block; */
-        padding: 18px;
+        list-style-type:none;
+        width: 86%;
+        &.grid {
+          background: #EEE;
+//          max-width: 1500px;
+          margin: 0 auto;
+          text-align: center;
+            &:after{
+                 content: '';
+                 display: block;
+                 clear: both;
+                            }
+        }
         li{
-            display: inline-block;
+            &.grid-item{
+                width: 350px;
+                height: 250px;
+                float: left;
+                /* vertical gutter */
+                margin-bottom: 10px;
+                background: #D26;
+                border: 2px solid #333;
+                border-color: hsla(0, 0%, 0%, 0.5);
+            }
+            &.grid-item--width2 { width: 450px; }
+            &.grid-item--width3 { width: 480px; }    
+            &.grid-item--width4 { width: 640px; }
+            &.grid-item--height2 { height: 375px; }
+            &.grid-item--height3 { height: 512px; }
+            &.grid-item--height4 { height: 360px; }
+            /*display: inline-block;
             width: 20%;
             background-color: brown;
             margin-right: 1.5%;
-            /* position: relative; */
+             position: relative; */
             a{
                 figure{
 
@@ -238,8 +267,7 @@ main.container{
                         text-align: center;
                         top: 0;
                         z-index: 10;
-                        display: none;
-                       
+                        display: none; 
                     }
                 }
                 
@@ -250,13 +278,15 @@ main.container{
 section.container{
     margin: 0 auto;
     padding: 11px 4%;
-    background-color: magenta;
+    /* background-color: magenta; */
     height: auto;
-    display: inline-block;
-    width: 100%;
+    /* display: inline-block; */
+    width: 93%;
     text-align: center;
-    vertical-align: middle;
-    text-transform: capitalize;
+    /* vertical-align: middle; */
+    //text-transform: capitalize;
+    border-top: 1px solid #CCC;
+    margin-top: 30px;
     p{
         display: inline-block;
         vertical-align: middle;
@@ -264,5 +294,65 @@ section.container{
     div#button_contact{
         display: inline-block;
         vertical-align: middle;
+    }
+}
+aside{
+    &.container{
+            display: inline-block;
+            /* text-align: center; */
+            margin: 0 auto;
+            width: 100%;
+            padding: 1%;    
+    }
+    a{
+            display: inline-block;
+            vertical-align: middle;
+        figure{
+            img{
+                width: 50%;
+            }
+        }
+    }
+    ul{
+        display: inline-block;
+        text-align: left;
+        list-style-type: none;
+        width: 30%;
+        vertical-align: middle;
+        }
+    address{
+        display: inline-block;
+        text-align: center;
+        width: 33%;
+        vertical-align: middle;
+        }
+    div#social{
+        display: inline-block;
+        text-align: right;
+        width: 35%;
+        vertical-align: middle;    
+        }
+    ul{
+        &#categorias{
+            display: inline-block;
+            width: 14%;
+            vertical-align: middle;
+            li{
+                display: block;
+            }
+        }
+        display: inline-block;
+        width: 47%;
+        li{
+            display: inline-block;    
+        }
+    }
+    p{font-size: 1em;}
+}
+footer{
+    p{
+        font-size: 0.8em;
+        padding: 0.5%;
+        text-align: center;
     }
 }
