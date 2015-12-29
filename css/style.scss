@@ -12,7 +12,7 @@
 }
 // GOOGLE FONT
 //@import url(https://fonts.googleapis.com/css?family=Roboto:300,250,500,300italic,700,250italic);
-@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,400italic,600,600italic,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic,700);
 //VARIABLES
 // Font Variables
 $Roboto: 'Open Sans', sans-serif; 
@@ -42,7 +42,9 @@ body{
      height: 70px;
      padding-top: 5px!important;
      background-color: rgba(249, 249, 249, 0.95);
-//    border-bottom: 1.9px solid #B1B1B1;
+     //border-bottom: 1.9px solid #B1B1B1;
+     -webkit-box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.2);
+     box-shadow: 0px 1px 5px 1px rgba(0,0,0,0.2);
  }
 .down_nav{
      margin-top: 18px!important;
@@ -294,22 +296,35 @@ section.container{
     div#button_contact{
         display: inline-block;
         vertical-align: middle;
+        a{
+            text-decoration: none;
+            color: gray;
+            text-transform: uppercase;
+            margin-left: 5%;
+        }
     }
 }
 aside{
     &.container{
             display: inline-block;
-            /* text-align: center; */
+            text-align: center;
             margin: 0 auto;
             width: 100%;
-            padding: 1%;    
+            padding: 4% 1% 2% 1%;    
     }
     a{
+        &#logo_footer{
+            margin-right: 2%;    
+        }
             display: inline-block;
             vertical-align: middle;
+            text-decoration: none;
+            text-transform: uppercase;
+            color: #9E9E9E;
+            font-size: 1.2em;
         figure{
             img{
-                width: 50%;
+                width: 85%;
             }
         }
     }
@@ -324,30 +339,52 @@ aside{
         display: inline-block;
         text-align: center;
         width: 33%;
-        vertical-align: middle;
+        text-align: left;
+        //vertical-align: middle;
+        p{
+            font-size: 1.2em;
+            font-style: normal;
+            font-weight: 300;
+            span{
+                font-size: 1.3em;
+                margin-right: 8px;
+                vertical-align: middle;
+            }
+        }
         }
     div#social{
         display: inline-block;
         text-align: right;
         width: 35%;
-        vertical-align: middle;    
+        //vertical-align: middle;
+        ul{
+            text-align: right;
+            font-size: 1.3em;
+            li{
+                &:last-child{margin-right: 0px;}
+                margin-right: 10px; 
+                }
+            }
         }
     ul{
         &#categorias{
             display: inline-block;
             width: 14%;
             vertical-align: middle;
+            font-weight: 300;
             li{
                 display: block;
             }
         }
         display: inline-block;
-        width: 47%;
+        width: 55%;
         li{
             display: inline-block;    
         }
     }
-    p{font-size: 1em;}
+    p{font-size: 0.8em;
+      font-style: normal;
+    }
 }
 footer{
     p{
