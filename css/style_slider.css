@@ -55,18 +55,15 @@
     a:hover.slidesjs-stop {
       background-position: -41px -18px;
     }
-
     .slidesjs-pagination {
       margin: 7px 0 0;
       float: right;
       list-style: none;
     }
-
     .slidesjs-pagination li {
       float: left;
       margin: 0 1px;
     }
-
     .slidesjs-pagination li a {
       display: block;
       width: 13px;
@@ -77,26 +74,21 @@
       float: left;
       overflow: hidden;
     }
-
     .slidesjs-pagination li a.active,
     .slidesjs-pagination li a:hover.active {
       background-position: 0 -13px
     }
-
     .slidesjs-pagination li a:hover {
       background-position: 0 -26px
     }
-
     #slides a:link,
     #slides a:visited {
       color: #333
     }
-
     #slides a:hover,
     #slides a:active {
       color: #9e2020
     }
-
     /*////////////////////////*/
     .sliderstuff img {
     float: left;
@@ -110,7 +102,6 @@
     font-size: 12px;
     font-weight: bold;
 }
-
     .navbar {
       overflow: hidden
     }

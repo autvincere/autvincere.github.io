@@ -9,27 +9,13 @@ $(document).ready(function(){
 			//console.log('es mayor :)')
 			$('div.content').addClass('down_content');
             $('div.content nav').addClass('down_nav');
-            $('div.content a figure img').addClass('down_logo');
+            $('div.content div#wrapper_header a figure img').addClass('down_logo');
 		}else{
 			$('div.content').removeClass('down_content');
             $('div.content nav').removeClass('down_nav');
-            $('div.content a figure img').removeClass('down_logo');                      
+            $('div.content div#wrapper_header a figure img').removeClass('down_logo');            
 		}
 		});
-    //INICIO SLIDER JS
-    $(function() {
-      $('#slides').slidesjs({
-        width: 1010,
-        height: 350,
-        play: {
-          active: true,
-          auto: true,
-          interval: 4000,
-          swap: true
-        }
-      });
-    });
-    //FIN SLIDER JS
     //INICIO MASONERY JS
       $('.grid').masonry({
     itemSelector: '.grid-item',
@@ -37,4 +23,18 @@ $(document).ready(function(){
     gutter: 10
   });
     //FIN MASONERY JS
+        //INICIO SLIDER JS
+    $(function() {
+      $('#slides').slidesjs({
+        width: 1070,
+        height: 350,
+        play: {
+          active: true,
+          auto: true,
+          interval: 5000,
+          swap: true
+        }
+      });
+    });
+    //FIN SLIDER JS
 });
