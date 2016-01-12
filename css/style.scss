@@ -15,8 +15,8 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,400italic,600,600italic,700);
 //VARIABLES
 // Font Variables
-$Roboto: 'Open Sans', sans-serif; 
-$fuente-primaria-sitio: 'Open Sans', sans-serif;
+$OpenSans: 'Open Sans', Arial, Helvetica, sans-serif; 
+$fuente-primaria-sitio: 'Open Sans', Arial, Helvetica, sans-serif;
 $color-fuente-primaria: #969696;
 $color-fondo-primario: #FFFFFF;
 $centrar : 0;    
@@ -29,7 +29,7 @@ $centrar : 0;
     -webkit-box-sizing: border-box;
 }
 body{
-    font-family: $Roboto;
+    font-family: $OpenSans;
     color: $color-fuente-primaria;
     background-color: $color-fondo-primario;   
 }
@@ -179,6 +179,8 @@ section{
                         color: #2B2B2B;
                         padding: 10px 0%;
                         font-size: 0.9rem;
+                        line-height: 25px;
+
                 }
                  }
             #guy{
@@ -206,13 +208,14 @@ section{
                     margin-top: 140px;
                      h2{
                         font-size: 2rem;
-                        font-family: $Roboto;
+                        font-family: $OpenSans;
                     }
                 }
             
             }
             div.container{
                 width: 1070px;
+                margin-bottom: 35px;
                 //width: 100%;
                   
                     }
@@ -221,14 +224,68 @@ section{
                 
             }
         }
-main.container{
-    margin: 0 auto;
-    padding: 0;
-//  background-color: burlywood;
-    height: auto;
-    //display: inline-block;
-    width: 100%;
-    text-align: center;
+main{
+    &.container{
+        margin: 0 auto;
+        padding: 0;
+    //  background-color: burlywood;
+        height: auto;
+        //display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
+    &.form{
+        display: inline-block;
+        width: 100%;
+        form{
+            width: 72%;
+            /* display: inline-block; */
+            text-align: center;
+            margin: 0 auto;
+            div{
+                &#datos{
+                    display: inline-block;
+                    vertical-align: top;
+                    width: 40%;
+                    input[name='nombre'],[name='mail'],[name='asunto']{
+                        padding: 6px 9px;
+                        width: 95%;
+                        margin-bottom: 10px;
+                        font-size: 1rem;
+                        height: 40px;
+                        }
+                    input[name='asunto']{
+                            margin-left: -4.5px;    
+                    }
+                 }
+                }
+            div{
+                &#comentario{
+                    display: inline-block;
+                    width: 48%;
+                textarea[name='comentario']{
+                    /* margin-left: 10%; */
+                    height: 113px;
+                    width: 100%;
+                    padding: 6px 9px;
+                    font-size: 1rem;  
+                    }
+                    input[type='submit']{
+                            width: 100%;
+                            height: 41px;
+                            border-image: none;
+                    }
+                }
+            }
+        }
+        article{
+           width: 25%;
+            padding: 0px;
+            text-align: left;
+            display: inline-block;
+            
+        }
+    }
     ul{
         list-style-type:none;
         width: 84.6%;
@@ -301,7 +358,7 @@ section.container{
     /* background-color: magenta; */
     height: auto;
     /* display: inline-block; */
-    width: 93%;
+    width: 85%;
     text-align: center;
     /* vertical-align: middle; */
     //text-transform: capitalize;
@@ -311,7 +368,7 @@ section.container{
         display: inline-block;
         vertical-align: middle;
         margin-top: 10px;
-        width: 56%;
+        width: 80%;
         a{
             text-decoration: none;
             color: gray;
@@ -420,6 +477,9 @@ aside{
 }
 footer{
     background-color: #F1F1F1;
+    bottom: 0px;
+    position: absolute;
+    width: 100%;
     p{
         font-size: 0.8rem;
         padding: 0.5%;

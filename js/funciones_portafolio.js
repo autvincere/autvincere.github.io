@@ -37,4 +37,28 @@ $(document).ready(function(){
       });
     });
     //FIN SLIDER JS
+    var URLactual = window.location.href;
+    URLactual.split("/")
+     console.log(URLactual);
+    
+    //INICIO validacion formulario
+    $('form').submit(function(e){
+        e.preventDefault();
+        var nombre = $("[name=nombre]").val();
+        var email = $("[name=email]").val();
+        var asunto = $("[name=asunto]").val();
+        var comentario=$("[name=comentario]").val();
+        //console.log("nombre");
+        //console.log("email");
+        //console.log("asunto");
+        //console.log("comentario");
+        if(nombre, email, asunto, comentario != ""){
+            $(this).submit();
+        }else{
+            console.log("debe venir algo");
+        }
+        //if(faltaArroba)
+        
+    });
+    
 });
