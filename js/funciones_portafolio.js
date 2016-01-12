@@ -41,7 +41,7 @@ $(document).ready(function(){
     var url = URLactual.indexOf("contacto.html");
     
     //console.log(url);
-    if(url == 0){
+    if(url == 1){
         $("footer").css("position", "absolute")
         
     }else{console.log("has nada")}
