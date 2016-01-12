@@ -38,16 +38,17 @@ $(document).ready(function(){
     });
     //FIN SLIDER JS
     var URLactual = window.location.href;
-    //var url = URLactual.length - 6;
+    var url = URLactual.indexOf("contacto.html");
+    
     //console.log(url);
-    if(URLactual == "http://autvincere.github.io/contacto.html"){
+    if(url == 0){
         $("footer").css("position", "absolute")
         
     }else{console.log("has nada")}
     //var url = URLactual.split("/");
 //    console.log(url);
 //    valor1 = operando[0];
-//    valor1 = operando[0];
+//    valor1 = operando[0]; 
 //    valor1 = operando[0];
 //    valor1 = operando[0];
 //    valor1 = operando[0];
