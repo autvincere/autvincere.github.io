@@ -38,9 +38,20 @@ $(document).ready(function(){
     });
     //FIN SLIDER JS
     var URLactual = window.location.href;
-    URLactual.split("/")
-     console.log(URLactual);
-    
+    //var url = URLactual.length - 6;
+    //console.log(url);
+    if(URLactual == "http://autvincere.github.io/contacto.html"){
+        $("footer").css("position", "absolute")
+        
+    }else{console.log("has nada")}
+    //var url = URLactual.split("/");
+//    console.log(url);
+//    valor1 = operando[0];
+//    valor1 = operando[0];
+//    valor1 = operando[0];
+//    valor1 = operando[0];
+//    valor1 = operando[0];
+//    
     //INICIO validacion formulario
     $('form').submit(function(e){
         e.preventDefault();
