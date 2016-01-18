@@ -39,7 +39,7 @@ $(document).ready(function(){
     //FIN SLIDER JS
     var URLactual = window.location.href;
     var url = URLactual.indexOf("contacto.html");
-    
+    console.log(url)
     //console.log(url);
     if(url == 1){
         $("footer").css("position", "absolute")
